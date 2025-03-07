@@ -119,7 +119,7 @@ li p {
 
 .nav-button button {
     background: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     padding: 10px 15px;
     color: #000;
@@ -1691,7 +1691,6 @@ th {
         /* Smaller heading for mobile */
         line-height: 33px;
         margin-bottom: 0px;
-        font-wright: 900px
     }
 
     .hero-content p {
@@ -1958,31 +1957,15 @@ th {
 
 
 @media (max-width: 320px) {
-    .hero-content h1 {
-        font-size: 2em;
-        /* Further reduce heading for very small screens */
-        line-height: 30px;
+  
+    .wheel {
+      width: 280px;
+    }
+    table{
+        width: 229px;
+        font-size: 10px;
+
+
     }
 
-    .games-grid {
-        grid-template-columns: repeat(2, 1fr);
-        /* Maintain 2 columns */
-        grid-auto-rows: 50px;
-        /* Adjust tile size */
-    }
-
-    .game-tile img {
-        width: 70%;
-        /* Even smaller image size */
-    }
-
-    .menu a {
-        font-size: 0.6rem;
-        /* Smallest menu font size */
-    }
-
-    .nav-button button {
-        font-size: 0.6rem;
-        padding: 5px 6px;
-    }
 }
