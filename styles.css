@@ -293,7 +293,7 @@ footer {
 .footer-social .social-icons {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
 }
 
 .footer-social .social-icons a {
@@ -1425,7 +1425,7 @@ th {
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
     }
     .menu{
         position: relative;
