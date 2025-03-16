@@ -2062,6 +2062,10 @@ th {
 
 
     }
+    .menu a{
+        font-size: 8px;
+        line-height: 35px;
+    }
 
 }
 
