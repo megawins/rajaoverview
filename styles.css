@@ -32,7 +32,7 @@ body {
 .joinbutton {
     background: linear-gradient(45deg, rgb(0, 155, 216), rgb(98, 192, 255));
     border-radius: 10px;
-    padding: 14px;
+    padding: 14px 54px;
     color: white;
     text-decoration: none;
     position: relative;
@@ -42,6 +42,20 @@ body {
 }
 
 
+.allgames a{
+    text-decoration: none;
+    background: red;
+    width: 400px;
+    padding: 15px;
+    color: white;
+    display: flex
+;
+    justify-content: center;
+}
+.allgames{
+    display: flex;
+    justify-content: center;
+}
 
 
 .body-back {
@@ -187,7 +201,7 @@ li p {
     color: rgb(255, 255, 255);
     border-radius: 25px;
     margin-bottom: 70px;
-    height: 800px;
+    height: 865px;
     width: 95%;
     z-index: 9999;
 }
@@ -293,7 +307,7 @@ footer {
 .footer-social .social-icons {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 10px;
 }
 
 .footer-social .social-icons a {
@@ -427,7 +441,7 @@ footer {
     /* overflow-y: scroll; */
     padding: 10px;
     scrollbar-width: thin;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
 }
 
 .games-grid::-webkit-scrollbar {
@@ -1362,7 +1376,7 @@ th {
     text-decoration: none;
 }
 
-/* General Responsive Adjustments */
+
 @media (max-width: 1394px) {
     .hero {
         flex-direction: row;
@@ -1421,15 +1435,17 @@ th {
     }
 
     .social-icons{
-        top: 25px;
+        top: 15px;
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
     }
     .menu{
         position: relative;
         top: -51px;
+        font-size: 16px;
+    
     }
     
 .hero-content a{
@@ -1454,8 +1470,74 @@ th {
 
     .joinbutton {
         font-size: 0.9rem;
-        padding: 10px;
+        padding: 14px 45px;
+        right: 0px;
+        top: 0px;
     }
+    .joinbtn{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        position: relative;
+        top: -225px;
+        align-items: center;
+    }
+    .paginatep {
+
+       margin-top: 0px; 
+       top: -0px; 
+    
+    }
+
+    .social-icons a img {
+        width: 28px;
+    }
+
+    .join-us-container {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 912px) {
+
+    .uls li{
+        width: 354px;
+    }
+
+    .paginate{
+        width: 68%;
+        left: 260px;
+    }
+    .joinbtn{
+        top: -145px;
+        left: 170px;
+        
+    }
+    .wheel img {
+        width: 160px;
+    }
+    h2 {
+        font-size: 2.2rem;
+
+}
+.menu{
+    font-size: 5px;
+    width: 108%;
+}
+.affiliate-grid {
+    width: 80%;
+
+}
+.join-us-container {
+    width: 80%;
+}
+
+
 }
 
 
@@ -1468,15 +1550,26 @@ th {
 
 
 
+ @media (max-width: 480px) {
 
 
+    
 
+    .joinbtn {
+        top: 0px;
+        left: 19px;
 
+    }
 
-
-@media (max-width: 480px) {
-
-
+    .paginatep {
+        display: block;
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+.allgames a{
+    width: 100%;
+    border-radius: 5px;
+}
     .hero-content a{
         position: relative;
         bottom: -10px;
@@ -1576,7 +1669,7 @@ th {
         width: 100%;
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
     }
 
     .blog-track{
@@ -1703,7 +1796,8 @@ th {
     .joinbutton {
         font-size: 0.8rem;
         padding: 8px;
-        margin: 10px auto;
+        margin: 0px auto;
+        width: 270px;
     }
 
     .games-grid {
@@ -1720,7 +1814,7 @@ th {
     }
 
     .menu a {
-        font-size: 0.7rem;
+        font-size: 12px;
         margin: 4px;
         line-height: -20px;
         font-weight: bold;
@@ -1734,6 +1828,7 @@ th {
         position: relative;
         bottom: 30px;
         top: -30px;
+
     }
     
 
@@ -1813,7 +1908,6 @@ th {
     .about {
         width: 95%;
         padding: 5%;
-        height: 700px;
     }
 
     .about h2 {
@@ -1863,9 +1957,7 @@ th {
     }
 
 
-    .paginatep {
-        display: none;
-    }
+  
 
     .statistics1 {
         display: flex;
@@ -1969,3 +2061,23 @@ th {
     }
 
 }
+
+
+
+
+
+
+
+@media (max-width: 390px) {
+    .menu a{
+       font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
