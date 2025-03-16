@@ -1527,7 +1527,7 @@ th {
 }
 .menu{
     font-size: 5px;
-    width: 108%;
+    width: 100%;
 }
 .affiliate-grid {
     width: 80%;
@@ -2051,7 +2051,7 @@ th {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 368px) {
   
     .wheel {
       width: 320px;
@@ -2064,23 +2064,11 @@ th {
     }
     .menu a{
         font-size: 8px;
-        line-height: 35px;
+        line-height: 11px;
     }
 
 }
 
-
-
-
-
-
-
-@media (max-width: 390px) {
-    .menu a{
-        font-size: 8px;
-        line-height: 35px;
-    }
-}
 
 
 
